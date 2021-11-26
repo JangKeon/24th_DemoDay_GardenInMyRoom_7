@@ -6,3 +6,4 @@
 - apk(release)경로: 24th_DemoDay_GardenInMyRoom_7\app\release\app-release.apk
 - apk(debug)경로: 24th_DemoDay_GardenInMyRoom_7\app\debug\app-debug.apk
 
+
