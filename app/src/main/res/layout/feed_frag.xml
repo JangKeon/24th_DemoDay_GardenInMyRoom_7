@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="310dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="   피드"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+
+        <ImageButton
+            android:id="@+id/btn_post"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="right"
+            android:scaleType="fitCenter"
+            android:background="@color/white"
+            android:clickable="true"
+            android:foreground="?selectableItemBackground"
+            android:adjustViewBounds="true"
+            android:src="@drawable/postbutton" />
+    </LinearLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="529dp"
+                android:src="@drawable/feedfirstimage" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="529dp"
+                android:src="@drawable/feedsecondimage" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="529dp"
+                android:src="@drawable/feed_image4" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="529dp"
+                android:src="@drawable/feed_5_image" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="529dp"
+                android:src="@drawable/feed_6_image" />
+
+            </LinearLayout>
+
+
+
+    </ScrollView>
+
+</LinearLayout>
+

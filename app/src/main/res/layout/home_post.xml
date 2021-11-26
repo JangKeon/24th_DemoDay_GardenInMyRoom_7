@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageButton
+                android:id="@+id/btnBack2"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:padding="15dp"
+                android:background="@color/white"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_baseline_arrow_back_24"
+                tools:ignore="SpeakableTextPresentCheck" />
+        </LinearLayout>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:src="@drawable/sample2"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:src="@drawable/ncon1"
+                android:scaleType="centerCrop"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="오렌지풍 플랜테리어로 따뜻한 분위기 내기"
+                android:textSize="18dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:paddingHorizontal="5dp"
+                android:paddingVertical="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="오렌지색 따뜻한 분위기의 가구들과 어울리는 식물들을 추천해 드릴게요."
+                android:textColor="@color/black"
+                android:paddingHorizontal="5dp"
+                android:paddingVertical="7dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:orientation="horizontal">
+                <Button
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/round3"
+                    android:layout_marginHorizontal="5dp"
+
+                    android:text="# 관엽식물"/>
+                <Button
+                    android:layout_width="105dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/round3"
+                    android:layout_marginHorizontal="5dp"
+                    android:text="# 심플 &amp; 모던"/>
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/round3"
+                    android:layout_marginHorizontal="5dp"
+                    android:text="# 키우기 쉬운"/>
+            </LinearLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="400dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ncon2"/>
+                <ImageButton
+                    android:id="@+id/btnToStore"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:backgroundTint="#3D8E40"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_baseline_add_24"/>
+            </FrameLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="창가자리에는 무거운 느낌을 주는 것보다 가볍고 산뜻한 느낌을 주는 포니테일 그라스를 놓아보았어요."
+                android:textColor="@color/black"
+                android:paddingHorizontal="5dp"
+                android:paddingVertical="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:padding="5dp"
+                android:text="이것도 어울려요!"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:orientation="horizontal">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingRight="10dp">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/img_recent_product1"
+                        android:scaleType="fitCenter"
+                        android:padding="5dp"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/gray"
+                        android:paddingLeft="5dp"
+                        android:textSize="15dp"
+                        android:text="아레카야자"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingRight="10dp">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/img_recent_product3"
+                        android:scaleType="centerCrop"
+                        android:paddingTop="10dp"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/gray"
+                        android:paddingLeft="5dp"
+                        android:textSize="15dp"
+                        android:text="율마"/>
+
+                </LinearLayout>
+            </LinearLayout>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ncon3"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>
