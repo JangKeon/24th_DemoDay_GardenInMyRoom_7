@@ -32,3 +32,7 @@
 
 ## 스토어
 <img src="https://user-images.githubusercontent.com/74534797/160151013-0f4561de-bc5a-4ec7-b2e4-e6a519b4e2e7.jpg"  width="300" height="600"> <img src="https://user-images.githubusercontent.com/74534797/160151038-b7f31903-abb5-4739-950f-b1c1c0f9f9b5.jpg"  width="300" height="600"> <img src="https://user-images.githubusercontent.com/74534797/160151051-16694512-12fc-4984-bf8f-d08a89f1e76e.jpg"  width="300" height="600">
+
+## My page
+<img src="https://user-images.githubusercontent.com/74534797/160237376-5acddf40-3e1a-4656-98d8-c1c9caedad78.jpg"  width="300" height="600">
+
